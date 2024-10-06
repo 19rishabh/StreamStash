@@ -8,6 +8,6 @@ router.get("/movie/:query", searchMovie);
 router.get("/tv/:query", searchTv);
 
 router.get("/history", getSearchHistory)
-router.delete("/history/id:", removeItemFromSearchHistory);
+router.delete("/history/:id", removeItemFromSearchHistory);
 
 export default router;
