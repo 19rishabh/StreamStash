@@ -149,7 +149,7 @@ const WatchPage = () => {
 					{trailers?.length === 0 && (
 						<h2 className='text-xl text-center mt-5'>
 							No trailers available for{" "}
-							<span className='font-bold text-red-600'>{content?.title || content?.name}</span> 😥
+							<span className='font-bold text-blue-600'>{content?.title || content?.name}</span> 😥
 						</h2>
 					)}
 				</div>
@@ -201,12 +201,12 @@ const WatchPage = () => {
 							<ChevronRight
 								className='absolute top-1/2 -translate-y-1/2 right-2 w-8 h-8
 										opacity-0 group-hover:opacity-100 transition-all duration-300 cursor-pointer
-										bg-red-600 text-white rounded-full'
+										bg-blue-600 text-white rounded-full'
 								onClick={scrollRight}
 							/>
 							<ChevronLeft
 								className='absolute top-1/2 -translate-y-1/2 left-2 w-8 h-8 opacity-0 
-								group-hover:opacity-100 transition-all duration-300 cursor-pointer bg-red-600 
+								group-hover:opacity-100 transition-all duration-300 cursor-pointer bg-blue-600 
 								text-white rounded-full'
 								onClick={scrollLeft}
 							/>

@@ -73,8 +73,8 @@ const SignUpPage = () => {
         </div>
         
         <button 
-          className='w-full py-2 bg-red-600 text-white font-semibold rounded-md
-          hover:bg-red-700
+          className='w-full py-2 bg-blue-600 text-white font-semibold rounded-md
+          hover:bg-blue-700
         '
           disabled={isSigningUp}
         >
@@ -83,7 +83,7 @@ const SignUpPage = () => {
       </form>
       <div className='text-center text-gray-400'>
         Already a member?{" "}
-        <Link to={'/Login'} className='text-red-500 hover:underline'>
+        <Link to={'/Login'} className='text-blue-500 hover:underline'>
           Sign in
         </Link>
       </div>
