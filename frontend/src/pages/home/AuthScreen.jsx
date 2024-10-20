@@ -88,7 +88,7 @@ const AuthScreen = () => {
 								<img src='/shootout2.jpg' alt='image' className='h-full' />
 								<div className=' flex justify-between items-center w-full'>
 									<div className='flex flex-col gap-0'>
-										<span className='text-md lg:text-lg font-bold'>Stranger Things</span>
+										<span className='text-md lg:text-lg font-bold'>Shootout at Byculla</span>
 										<span className='text-sm text-blue-500'>Downloading...</span>
 									</div>
 
