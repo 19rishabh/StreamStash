@@ -24,9 +24,10 @@ const AuthScreen = () => {
 
         {/* hero section */}
 		<div className='flex flex-col items-center justify-center text-center py-40 text-white max-w-6xl mx-auto'>
-			<h1 className='text-4xl md:text-6xl font-bold mb-4'>Unlimited movies, TV shows, and more</h1>
-			<p className='text-lg mb-4'>Watch anywhere. Cancel anytime.</p>
-			<p className='mb-4'>Ready to watch? Enter your email to create or restart your membership.</p>
+			<h1 className='text-4xl md:text-6xl font-bold mb-4'>The Best Streaming Experience </h1>
+			<p className='text-lg mb-4'>StreamStash is the best streaming experience for watching your favorite movies and shows on demand, 
+                anytime, anywhere. With StreamStash, you can enjoy a wide variety of content, including the latest blockbusters, classic movies,
+                popular TV shows, and more.</p>
 
             <form className='flex flex-col md:flex-row gap-4 w-1/2' onSubmit={handleFormSubmit}>
                 <input
@@ -81,10 +82,10 @@ const AuthScreen = () => {
 					{/* left side */}
 					<div className='flex-1 relative'>
 						<div className='relative'>
-							<img src='/stranger-things-lg.png' alt='Stranger Things img' className='mt-4' />
+							<img src='/shootout.jpg' alt='Shootout img' className='mt-4' />
 
 							<div className='flex items-center gap-2 absolute bottom-5 left-1/2 -translate-x-1/2 bg-black w-3/4 lg:w-1/2 h-24 border border-slate-500 rounded-md px-2'>
-								<img src='/stranger-things-sm.png' alt='image' className='h-full' />
+								<img src='/shootout2.jpg' alt='image' className='h-full' />
 								<div className=' flex justify-between items-center w-full'>
 									<div className='flex flex-col gap-0'>
 										<span className='text-md lg:text-lg font-bold'>Stranger Things</span>
