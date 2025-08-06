@@ -41,6 +41,14 @@ cd streamstash
 npm install
 ```
 
+**Configure Environment Variables**  
+Create .env file and add your secret keys for the following variables:
+```
+MONGO_DB_URI
+JWT_SECRET
+TMDB_API_KEY
+```
+
 **Build the Project**
 ```
 npm run build
