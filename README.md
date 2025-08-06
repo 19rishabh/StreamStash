@@ -42,11 +42,13 @@ npm install
 ```
 
 **Configure Environment Variables**  
-Create .env file and add your secret keys for the following variables:
+Create .env file in the root directory and add your own secret keys:
 ```
-MONGO_DB_URI
-JWT_SECRET
-TMDB_API_KEY
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+JWT_SECRET=your_jwt_secret_key
+NODE_ENV=development
+TMDB_API_KEY=your_tmdb_api_key
 ```
 
 **Build the Project**
