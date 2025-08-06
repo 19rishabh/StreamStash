@@ -4,16 +4,16 @@ StreamStash is a feature-rich, full-stack movie and TV show streaming applicatio
 ## ✨ Features  
 🔐 Secure Authentication: Full user authentication flow (Signup, Login, Logout) using JSON Web Tokens (JWT).  
 🎬 Extensive Content Library: Fetch and display thousands of the latest movies and TV shows from an external API.  
-📱 Fully Responsive UI: A modern and beautiful user interface built with Tailwind CSS that looks great on all devices, from mobile phones to desktops.  
+📱 Responsive UI: A modern and beautiful user interface built with Tailwind CSS that looks great on all devices, from phones to desktops.  
 📚 Search History: Users can view and manage their past search queries.  
 🤖 Content Recommendations: Get suggestions for similar movies and TV shows based on your selection.  
 💙 Awesome Landing Page: A beautiful and engaging landing page to welcome users.  
 🌐 Deployment Ready: The application is structured for easy deployment to cloud platforms.
 
 ## ⚛️ Tech Stack
-*Frontend: React.js, Tailwind CSS*
-*Backend: Node.js, Express.js*
-*Database: MongoDB*
+*Frontend: React.js, Tailwind CSS*  
+*Backend: Node.js, Express.js*  
+*Database: MongoDB*  
 *Authentication: JSON Web Tokens (JWT)*
 
 ## 🚀 Getting Started with StreamStash
