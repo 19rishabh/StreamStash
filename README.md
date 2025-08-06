@@ -2,8 +2,8 @@
 Follow the steps below to set up and run the StreamStash streaming platform locally:
 
 ### Prerequisites
--*Node.js (v16 or higher recommended)*
--*npm (comes with Node.js)*
+- *Node.js (v16 or higher recommended)*  
+- *npm (comes with Node.js)*
 
 ### Installation & Setup
 
