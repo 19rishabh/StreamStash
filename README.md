@@ -1,11 +1,11 @@
-##🚀 Getting Started with StreamStash##
+## 🚀 Getting Started with StreamStash
 Follow the steps below to set up and run the StreamStash streaming platform locally:
 
-###Prerequisites###
+### Prerequisites
 *Node.js (v16 or higher recommended)*
 *npm (comes with Node.js)*
 
-###Installation & Setup
+### Installation & Setup
 **Clone the Repository**
 ```
 git clone https://github.com/your-username/streamstash.git
@@ -26,7 +26,7 @@ npm install
 npm run build
 ```
 
-**Start the Application
+**Start the Application**
 ```
 npm run start
 ```
