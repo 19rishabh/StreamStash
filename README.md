@@ -24,7 +24,7 @@ npm install
 **Build the Project
 ```
 npm run build
-``
+```
 
 **Start the Application
 ```
